@@ -1,0 +1,12 @@
+#!/bin/sh -e
+#
+# rc.local
+
+sudo chmod +x bot.py && sudo cp bot.py /usr/bin/
+botsend=$(python bot.py) || true
+if ["$botsend"]; then
+	printf "sent!"
+fi
+
+exit 0
+
