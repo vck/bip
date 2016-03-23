@@ -1,11 +1,13 @@
-# bip
+a twitter bot that tweet about its wake-up time. 
 
-Raspberry Pi Twitter bot that send bip to Twitter after booting 
+installation:
 
-# installation 
+1. `pip install twitter`
 
-- pip install -r requirements.txt
-- `sudo cp rc.local /etc/rc.local`
-- sudo reboot
+2. copy rc.local file to your /etc/ 
 
+`sudo cp rc.local /etc/`
 
+3. test it out, reboot your Pi. `sudo reboot`
+
+demo: [twitter.com/veeklab](http://twitter.com/veeklab)
